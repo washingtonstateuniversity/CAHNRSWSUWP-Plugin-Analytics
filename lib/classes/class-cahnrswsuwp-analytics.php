@@ -44,7 +44,7 @@ class CAHNRSWSUWP_Analytics {
 
 		echo 'var ca_trackers = ' . wp_json_encode( $tracker ) . ';';
 
-		require dirname( __FILE__ ) . 'js/cahnrs-tracker-analytics.min.js';
+		require dirname( __DIR__ ) . '/js/cahnrs-tracker-analytics.min.js';
 
 		echo '</script>';
 
